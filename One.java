@@ -13,6 +13,11 @@ public class One {
 		this.temp = temp;
 	}
 
+	int method (int a){
+		int b = a*2;
+		return b;
+	}
+
 	public int getA() {
 		return a;
 	}
