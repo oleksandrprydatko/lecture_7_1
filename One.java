@@ -6,6 +6,7 @@ public class One {
 	int b;
 	int temp;
 	int c;
+	int d;
 	
 	public One(int a, int b, int temp, int c) {
 	
