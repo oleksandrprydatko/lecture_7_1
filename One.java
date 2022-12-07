@@ -26,6 +26,10 @@ public class One {
 		return c;
 	}
 
+	void opp (){
+		// шось робить
+	}
+
 	public int getA() {
 		return a;
 	}
