@@ -4,13 +4,10 @@ public class One {
 
 	private int a;
 	int b;
-	final int TEMP = 0;
 	int c;
-	int d;
+	ststic int p = 3.14;
 	
 	public One(int a, int b, int c) {
-	
-		super();
 		this.a = a;
 		this.b = b;
 		this.c = c;
@@ -21,7 +18,7 @@ public class One {
 	}
 
 	private int suma() {
-		int c = a + b;
+		int c = (a + b) * p;
 		return c;
 	}
 
