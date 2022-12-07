@@ -4,16 +4,15 @@ public class One {
 
 	private int a;
 	int b;
-	int temp;
+	final int TEMP = 0;
 	int c;
 	int d;
 	
-	public One(int a, int b, int temp, int c) {
+	public One(int a, int b, int c) {
 	
 		super();
 		this.a = a;
 		this.b = b;
-		this.temp = temp;
 		this.c = c;
 	}
 
