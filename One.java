@@ -6,7 +6,7 @@ public class One {
 	int b;
 	int temp;
 	int c;
-	int d;
+	ststic int p = 3.14;
 	
 	public One(int a, int b, int temp, int c) {
 	
@@ -22,7 +22,7 @@ public class One {
 	}
 
 	private int suma() {
-		int c = a + b;
+		int c = (a + b) * p;
 		return c;
 	}
 
