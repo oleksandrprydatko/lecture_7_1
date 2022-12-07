@@ -4,16 +4,12 @@ public class One {
 
 	private int a;
 	int b;
-	int temp;
 	int c;
 	ststic int p = 3.14;
 	
-	public One(int a, int b, int temp, int c) {
-	
-		super();
+	public One(int a, int b, int c) {
 		this.a = a;
 		this.b = b;
-		this.temp = temp;
 		this.c = c;
 	}
 
