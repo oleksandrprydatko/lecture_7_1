@@ -15,4 +15,9 @@ public class One {
 		int c = a + b;
 		return c;
 	}
+
+	int riznycia (){
+		int c = a - b;
+		return c;
+	}
 }
