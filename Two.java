@@ -1,6 +1,6 @@
 public class One {
 
-	int a = 3.14;
+	int p = 3.14;
 	int b;
 	int temp;
 	static int i = 0;
