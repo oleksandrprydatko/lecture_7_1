@@ -3,6 +3,7 @@ public class One {
 	int a;
 	int b;
 	int temp;
+	static int i = 0;
 	
 	public One(int a, int b, int temp) {
 		super();
